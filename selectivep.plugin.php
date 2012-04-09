@@ -32,6 +32,8 @@ class SelectiveP extends Plugin
 		$form = new FormUI('selectivep');
 		$options = array_flip(Post::list_active_post_types());
 		unset($options[0]);
+		$options['comment'] = 'Any Comment';
+		$form->append(new FormControlStatic('prompt', 'Select the post types that should have autop applied to their content'));
 		$form->append(new FormControlCheckboxes('post_types', 'selectivep_types', 'Post types that should autop', $options));
 		$form->append(new FormControlSubmit('save', 'Save'));
 		return $form;

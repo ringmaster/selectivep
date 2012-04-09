@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schemas.habariproject.org/pluggable/0.8">
+	<name>Selective Paragraph</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+	
+	<author url="http://asymptomatic.net/">Owen Winkler</author>
+	
+	<version>1.0</version>
+	<url>http://habariproject.org/</url>
+	<description><![CDATA[Automatically insert HTML paragraph tags and line breaks, dependent on post types.]]></description>
+
+	<copyright>2012</copyright>
+
+</pluggable>

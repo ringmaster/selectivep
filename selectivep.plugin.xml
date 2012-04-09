@@ -6,7 +6,7 @@
 	<author url="http://asymptomatic.net/">Owen Winkler</author>
 	
 	<version>1.0</version>
-	<url>http://habariproject.org/</url>
+	<url>https://github.com/ringmaster/selectivep</url>
 	<description><![CDATA[Automatically insert HTML paragraph tags and line breaks, dependent on post types.]]></description>
 
 	<copyright>2012</copyright>

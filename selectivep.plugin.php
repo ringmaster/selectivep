@@ -24,7 +24,7 @@ class SelectiveP extends Plugin
 	}
 
 	public function should_pee($type) {
-		$types = Options::get('selectivep_types');
+		$types = Options::get('selectivep_types', array());
 		return in_array($type, $types);
 	}
 
